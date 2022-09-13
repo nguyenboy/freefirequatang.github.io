@@ -1,0 +1,1198 @@
+/* CREATED BY NONG VAN NGUYEN */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&amp;display=swap');
+@font-face
+{
+    font-family: neue;
+    src: url(https://fonts.gstatic.com/s/bebasneue/v2/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2);
+}
+@font-face 
+{
+    font-family: exit;
+    src: url(https://files7.webydo.com/91/9140034/UploadedFiles/805AD88C-21B4-02B8-4D75-342F16BCBE43.woff);
+}
+@font-face
+{
+	font-family: press;
+	src: url(https://dl.dir.freefiremobile.com/common/web_event/gamingdice/fonts/PressStart2P-Regular.ttf);
+}
+:root 
+{
+	--ion-safe-area-top: 20px;
+	--ion-safe-area-bottom: 22px;
+	--color:#000;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	scroll-behavior: smooth;
+}
+body
+{
+	width: 100%;
+	min-height: 100vh;
+	background: url('https://www.kolpaper.com/wp-content/uploads/2020/12/Free-Fire-Desktop-Wallpaper.jpg') no-repeat;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-attachment: fixed;
+}
+body:before
+{
+	content:'';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.80);
+}
+.loader
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 9999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader img
+{
+    max-width: 100%;
+}
+.ST-script
+{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/bg.jpg') no-repeat;
+	background-size: cover;
+	background-position-x: 66%;
+	padding: 65px 0px 60px 0px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+.ST-script:before
+{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 100%;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/bg_icon.png') no-repeat;
+	background-size: cover;
+}
+
+.ST-script .ST-header
+{
+	position: fixed;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	height: 60px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/header.png') no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	color: #fff;
+	font-size: 15px;
+	z-index: 1;
+	line-height: 60px;
+}
+.ST-script .ST-header:before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 10px;
+	width: 95px;
+	height: 55px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/arrow.gif') no-repeat;
+	background-size: 100% 100%;
+}
+.ST-script .ST-header:after
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 10px;
+	width: 95px;
+	height: 55px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/arrow.gif') no-repeat;
+	background-size: 100% 100%;
+	transform: scale(-1);
+}
+.ST-header h1
+{
+	font-family: 'press';
+	letter-spacing: 0.5px;
+	animation: glowup 1s infinite linear;
+	transform: skewX(-10deg);
+	font-size: 18px;
+}
+@keyframes glowup
+{
+	0%,100% {
+		text-shadow: 0 0 0 #6ff4c6;
+	} 50% {
+		text-shadow: 0 0 10px #6ff4c6;
+	}
+}
+.ST-script .creator
+{
+	position:absolute;
+	bottom: 15px;
+	left: 50%;
+	transform: translateX(-50%);
+	color:#fff;
+	font-family: 'press';
+	font-size: 9px;
+	width: 100%;
+	text-align: center;
+	letter-spacing: -1px;
+}
+.ST-script .creator a
+{
+	text-decoration: none;
+	color:#fff;
+	font-weight: bold;
+}
+.ST-script .ST-bl
+{
+	position: fixed;
+	top: 61px;
+	left: 0;
+	width: 35px;
+	height: 100%;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/border_l.png') no-repeat;
+	background-size: 100% 95%;
+	z-index: 1;
+}
+.ST-script .ST-br
+{
+	position: fixed;
+	top: 61px;
+	right: 0;
+	width: 50px;
+	height: 100%;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/border_r.png') no-repeat;
+	background-size: 100% 95%;
+	z-index: 3;
+}
+.ST-script .ST-bagianAtas
+{
+	position: relative;
+	width: 100%;
+	padding: 0 35px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	overflow: hidden;
+}
+.ST-bagianAtas .ST-banner
+{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/modal.png') no-repeat;
+	background-size: 100% 100%;
+}
+.ST-banner .ST-imgBanner
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 97%;
+	height: 93%;
+	border-radius: 3px;
+	border:1px solid #000;
+}
+.ST-bagianAtas .ST-bannerText
+{
+	position: relative;
+	height: 50px;
+	width: 100%;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/toast.png') no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 46px;
+	font-size: 10px;
+	padding: 0 8px;
+	color: #fff;
+}
+/* .ST-bagianAtas .ST-bannerText:before
+{
+	content: '';
+	position: absolute;
+	top: 12px;
+	width: 40px;
+	height: 40px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/trangle.png') no-repeat;
+	animation: kirikanan 1s infinite linear;
+}
+.ST-bagianAtas .ST-bannerText:after
+{
+	content: '';
+	position: absolute;
+	top: 12px;
+	width: 40px;
+	height: 40px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/trangle.png') no-repeat;
+	transform: scaleX(-1);
+	animation: kanankiri 1s infinite linear;
+} */
+@keyframes kirikanan {
+	0%, 100% {
+		right: 3px;
+		filter: hue-rotate(0);
+	}
+	50% {
+		right: 10px;
+		filter: hue-rotate(360deg);
+	}
+}
+@keyframes kanankiri {
+	0%, 100% {
+		left: 3px;
+		filter: hue-rotate(0);
+	}
+	50% {
+		left: 10px;
+		filter: hue-rotate(360deg);
+	}
+}
+.ST-bagianAtas .ST-bannerText h2
+{
+	font-family: 'exit';
+	text-shadow: 0 0 10px #6ff4c6;
+}
+/*.ST-bagianAtas .ST-garis
+{
+	position: relative;
+	width: 100%;
+	height: 10px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/bar.png') no-repeat;
+	background-size: 100% 100%;
+	box-shadow: 0 0 10px #6ff4c6;
+}*/
+
+.ST-script .ST-menu
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ST-menu .ST-sub
+{
+	width: 120px;
+	height: 40px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/purchase_g.png') no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+   font-family: 'Baloo 2', cursive;
+	cursor: pointer;
+}
+.ST-menu .ST-sub.active
+{
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/purchase.png') no-repeat;
+	background-size: 100% 100%;
+	text-shadow: 0 0 10px #07e;
+	filter:hue-rotate(90deg);
+}
+.ST-script .ST-change
+{
+	position: relative;
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background:url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/pool.png') no-repeat;
+	padding: 25px;
+	padding-bottom:56px;
+	padding-top: 40px;
+	background-size: 100% 100%;
+	filter:hue-rotate(0deg)
+}
+.ST-script .ST-change::before
+{
+	content: attr(data-text);
+	position: absolute;
+	top:-21px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	line-height: 65px;
+	color: #fff;
+	   font-family: 'Baloo 2', cursive;
+	font-size: 20px;
+	width: 250px;
+	text-shadow: 0 0 10px #6ff4c6;
+	height: 65px;
+	background:url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/left_tit.png') no-repeat;
+	background-size:100% 100%;
+}
+.ST-change .ST-item
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.ST-script .ST-item:not(:first-child)
+{
+	margin-top: 40px;
+}
+.ST-item .ST-subitem
+{
+	position: relative;
+	width: 90px;
+	height: 90px;
+	background: #6ff4c6;
+	margin: 5px;
+	box-shadow: 0 0 5px #6ff4c6;
+	border-radius: 3px;
+	border-bottom: none;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	animation: scaleIn .5s forwards linear;
+	animation-delay: calc(.2s * var(--i));
+	transform: scale(0.7);
+	opacity: 0;
+}
+@keyframes scaleIn
+{
+	from {
+		transform: scale(0.7);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1.0);
+		opacity: 1;
+	}
+}
+.ST-item .ST-subitem:before
+{
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	right: 1px;
+	bottom: 1px;
+	background: #000;
+	border-radius: 3px;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.ST-item .ST-subitem .jujurlahpadakujujurlahpadaku 
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	border:1px solid #6ff4c6;
+	border-bottom:none;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.ST-item .ST-subitem .ST-claim
+{
+	position: absolute;
+	bottom: -25px;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background: #6ff4c6;
+	clip-path: polygon(0% 0%, 0% 100%, 90% 100%, 100% 63%, 100% 0%);
+	box-shadow: 0 0 10px #6ff4c6 !important;
+	text-align: center;
+	line-height: 22px;
+   font-family: 'Baloo 2', cursive;
+	color: #fff;
+	text-shadow: 0 0 3px #000 !important;
+	-webkit-text-stroke: 0.3px #000;
+	cursor: pointer;
+}
+.ST-item .ST-subitem .ST-claim:before
+{
+	content: '';
+	position: absolute;
+	top: 1px;
+	left: 1px;
+	right: 1px;
+	bottom: 1px;
+	clip-path: polygon(0% 0%, 0% 100%, 90% 100%, 100% 63%, 100% 0%);
+	border: 1px solid #000;
+}
+.ST-item .ST-subitem .ST-claim:after
+{
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	height: 100%;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/bg_icon.png') no-repeat;
+	z-index: 99;
+	background-size: cover;
+	object-fit: cover;
+}
+.ST-script .ST-footer
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/border_b.png') no-repeat;
+	background-size: 100% 100%;
+	z-index: 2;
+}
+
+
+
+
+/* POPUP CSS */
+
+.ST-script .maskBlur
+{
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.90);
+}
+
+
+
+.ST-script .st-Reward
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 350px;
+	height: 230px;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/modal_reward.png') no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 20px;
+	display: none;
+	animation: oleng .5s forwards linear;
+}
+@keyframes oleng 
+{
+	0%,100% {
+		transform: translate(-50%,-50%) rotate(0);
+	}
+	20% {
+		transform: translate(-50%,-50%) rotate(-10deg);
+	}
+	40% {
+		transform: translate(-50%,-50%) rotate(10deg);
+	}
+	60% {
+		transform: translate(-50%,-50%) rotate(-10deg);
+	}
+	80% {
+		transform: translate(-50%,-50%) rotate(10deg);
+	}
+}
+.st-Reward .rewardToast
+{
+	position: relative;
+    height: 38px;
+    width: 100%;
+    background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/toast.png') no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 36px;
+    font-size: 16px;
+    padding: 0 8px;
+    color: #fff;
+   font-family: 'Baloo 2', cursive;
+    text-shadow: 0 0 10px #6ff4c6;
+}
+.st-Reward .rewardToast::before
+{
+	content: '';
+	position: absolute;
+	top: 9px;
+	width: 20px;
+	height: 20px;
+	background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/more_rule_icon.png') no-repeat;
+	transform: rotatez(90deg);
+	transform-style: preserve-3d;
+	background-size: 100% 100%;
+	animation: kirikanan 1s infinite linear;
+}
+.st-Reward .rewardToast::after
+{
+	content: '';
+	position: absolute;
+	top: 9px;
+	width: 20px;
+	height: 20px;
+	background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/more_rule_icon.png') no-repeat;
+	transform: rotatez(270deg);
+	transform-style: preserve-3d;
+	background-size: 100% 100%;
+	animation: kanankiri 1s infinite linear;
+}
+.st-Reward .rewardImage
+{
+	position: relative;
+	transform: translateX(8px);
+    width: 350px;
+    height: 145px;
+    background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/jackpot_bg.png') no-repeat;
+	background-size: 100% 100%;
+}
+.st-Reward .rewardImage img
+{
+	 position: absolute;
+	 top: 45%;
+	 left: 48%;
+	 width: 70px;
+	 height: 70px;
+	 border-radius: 3px;
+	 animation: animate 3s linear infinite;
+     perspective: 800px;
+	 border: 2px solid #6ff4c6;
+}
+.st-Reward .rewardImage:before
+{
+	content: '';
+	position: absolute;
+	left: 48%;
+	transform: translateX(-50%);
+	bottom: 28px;
+	width: 100px;
+	height: 20px;
+	background: radial-gradient(#6ff4c6,transparent,transparent);
+	z-index: 9;
+	perspective: 800px;
+}
+@keyframes animate {
+    0%{
+       transform: translate(-50%,-50%) rotateY(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotateY(360deg);
+    }
+}
+.st-Reward .rewardButton
+{
+	margin-top: -20px;
+	width: 115px;
+	height: 35px;
+	background:url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/confirm.png') no-repeat;
+	background-size: 100% 100%;
+	text-align: center;
+	line-height: 32px;
+   font-family: 'Baloo 2', cursive;
+	color: #fff;
+	text-shadow: 0 0 3px #000 !important;
+	-webkit-text-stroke: 0.3px #000;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.ST-script .st-loginId
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 230px;
+	background: url('https://cdngarenanow-a.akamaihd.net/gstaticid/FF_ID/gamingdiceblue/bigtextbox.png') no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 20px;
+	filter: hue-rotate(330deg);
+	display: none;
+}
+.st-loginId h1
+{
+	font-family: 'press';
+	font-size: 18px;
+	color:#fff;
+	letter-spacing: -1px;
+	text-shadow: 0 0 2px #000;
+}
+.st-loginId input
+{
+	margin-top: 20px;
+	position: relative;
+	width:230px;
+	height: 42px;
+	background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/stars_wrap.png') no-repeat;
+	background-size: 100% 100%;
+	outline: none;
+	padding: 0 10px;
+	font-family: 'exit';
+	color:#fff;
+	border: none;
+	font-size: 15px;
+	text-shadow: 0 0 2px #000;
+}
+
+.st-loginId input::placeholder
+{
+	text-shadow: 0 0 2px #000;
+	color:#fff;
+}
+
+.st-loginId .st-check
+{
+	margin-top: 20px;
+	position: relative;
+	width:100px;
+	height: 30px;
+	background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/btn_confirm.png') no-repeat;
+	background-size: 100% 100%;
+   font-family: 'Baloo 2', cursive;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: -1px;
+	line-height: 30px;
+	color:#fff;
+	text-shadow: 0 0 2px #000;
+	cursor: pointer;
+}
+.st-loginId .inputAlert
+{
+	width: 234px;
+	font-size: 11px;
+   font-family: 'Baloo 2', cursive;
+	text-shadow: 0 0 2px #000;
+	text-align: center;
+	color:#fff;
+	margin-top: 3px;
+	display: none;
+}
+.ST-script .st-toast
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 30px;
+	background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/toast.png') no-repeat;
+	background-size: 100% 100%;
+	filter: hue-rotate(210deg);
+	text-align: center;
+	overflow: hidden;
+	line-height: 26px;
+	animation: slebew .5s forwards linear;
+	display: none;
+}
+@keyframes slebew {
+	from {
+		width: 0;
+		opacity: 0;
+	}
+	to {
+		width: 400px;
+		opacity: 1;
+	}
+}
+.st-toast p
+{
+	color:#fff;
+   font-family: 'Baloo 2', cursive;
+}
+
+
+.ST-script .st-history
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 230px;
+	background: url('https://cdngarenanow-a.akamaihd.net/gstaticid/FF_ID/gamingdiceblue/bigtextbox.png') no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 20px;
+	filter: hue-rotate(330deg);
+	display: none;
+}
+.st-history h1
+{
+   font-family: 'Baloo 2', cursive;
+	font-size: 14px;
+	color:#fff;
+	letter-spacing: -1px;
+	text-shadow: 0 0 2px #000;
+	text-align: center;
+}
+.st-history .top
+{
+	margin-top:10px;
+	font-family: 'exit';
+	font-size: 15px;
+	color:#fff;
+	letter-spacing: -1px;
+	text-align: center;
+	background: url('https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/toast.png') no-repeat;
+	width: 200px;
+	height: 30px;
+	background-size: 100% 100%;
+	letter-spacing: 0.2px;
+	line-height: 26px;
+}
+
+.st-history .bawah
+{
+	margin-top:3px;
+   font-family: 'Baloo 2', cursive;
+	font-size: 15px;
+	color:#fff;
+	letter-spacing: -1px;
+	text-align: center;
+	text-shadow: 0 0 2px #000;
+	letter-spacing: 0.2px;
+}
+
+.st-history .dualButton
+{
+	position: relative;
+	margin-top: 10px;
+	width: 300px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.dualButton .st-btns
+{
+	width:100px;
+	height: 30px;
+	background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/btn_confirm.png') no-repeat;
+	background-size: 100% 100%;
+	   font-family: 'Baloo 2', cursive;
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: -1px;
+	line-height: 30px;
+	color:#fff;
+	text-shadow: 0 0 2px #000;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+.st-btns.no
+{
+	filter:grayscale(100%)
+}
+
+
+
+
+/* FACEBOOK CSS */
+
+.popup-login {
+    background:rgba(0,0,0,0.5);
+    width:100%;
+    height:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 999999999999999999;
+}
+.popup-box-login-fb {
+    background:#ECEFF6;
+    max-width:330px;
+    height:auto;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    font-family:'Teko';
+    color:#000;
+    border-radius:10px;
+}
+.navbar-fb {
+	background: #3b5998;
+	height: auto;
+	max-width:330px;
+	padding: 8px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.navbar-fb img {
+    width: 115PX;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content-box-fb {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.content-box-fb .alert {
+    display: none;
+    left: -15px;
+    position: relative;
+    width: 330px;
+    padding: 5px;
+    background: red;
+    color:#fff;
+    font-size: 13px;
+    font-family:'Roboto';
+}
+.content-box-fb img {
+    width: 60;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    display: block;
+}
+.txt-login-fb {
+    width: 290px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 17px;
+    padding: 8px;
+    color: #90949c;
+    font-size: 16px;
+    font-family: Roboto;
+    text-align: center;
+    display: block;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+	height: auto;
+	padding: 12px;
+	color: #000;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Lato',sans-serif;
+	border: 1px solid #bdbebf;
+	cursor: pointer;
+	outline: none;
+}
+.login-form input[type="text"] {
+    margin: 0;
+    padding-bottom: 13px;
+	border-bottom: none;
+	border-radius: 4px 4px 0 0;
+	box-shadow: 0 -1px 0 #E0E0E0 inset,0 0px 0px rgba(0,0,0,0.23) inset;
+}
+.login-form input[type="password"] {
+    margin: 0;
+	border-top: none;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 -0px 0 rgba(0,0,0,0.23) inset,0 0px 0px rgba(255,255,255,0.1);
+}
+.btn-login-fb {
+	background: #1778f2;
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-family: Roboto;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 1px 0px rgba(0, 0, 0, 0.3);
+	border: 1px solid #3578e5;
+	border-radius: 5px;
+	box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1);
+	outline: none;
+	display: block;
+}
+.btn-login-fb.disabled
+{
+    pointer-events: none;
+    background:#8b9dc3;
+    border:1px solid #8b9dc3;
+}
+.txt-create-account {
+    margin-top: 4px;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: #3b5998;
+    font-size: 13.5px;
+    font-family: Roboto;
+    text-align: center;
+}
+.txt-not-now {
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    color: #3b5998;
+    font-size: 13.5px;
+    font-family: Roboto;
+    text-align: center;
+}
+.txt-forgotten-password {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    padding: 5px;
+    color: #7596c8;
+    font-size: 13.5px;
+    font-family: Roboto;
+    text-align: center;
+}
+.language-box {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.language-name {
+    width: 40%;
+    height: auto;
+    margin: 5px;
+    margin-bottom: 0px;
+    color: #3b5998;
+    font-size: 12px;
+    font-family: Roboto;
+    text-align: center;
+    display: inline-block;
+}
+.language-name i {
+    width: 23px;
+    padding: 4px;
+    color: #90949c;
+    border: 1px solid #3b5998;
+    border-radius: 3px;
+}
+.language-name-active {
+    color: #90949c;
+    font-weight: bold;
+}
+.copyright {
+    width: 40%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #90949c;
+    font-size: 12px;
+    font-family: Roboto;
+    text-align: center;
+    display: block;
+}
+
+/* FORM CSS */
+
+.ST-change .form-group
+{
+	margin-top: 15px;
+	position: relative;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.form-group .finput
+{
+	width: 300px;
+	height: 45px;
+	background: url(https://freefiremobile-a.akamaihd.net/common/web_event/b1get2/images/toast_y.png) no-repeat;
+	background-size: 100% 100%;
+	border:none;
+	font-family: 'exit';
+	outline: none;
+	color:#fff;
+	padding: 0 10px;
+	line-height: 45px;
+}
+
+.form-group .finput::placeholder
+{
+	color:#fff;
+}
+
+.form-group .fsubmit
+{
+	width:100px;
+	height: 30px;
+	background: url('https://dl.dir.freefiremobile.com/common/web_event/gamingdice/images/btn_confirm.png') no-repeat;
+	background-size: 100% 100%;
+	font-family: 'press';
+	font-size: 11px;
+	text-align: center;
+	letter-spacing: -1px;
+	line-height: 30px;
+	color:#fff;
+	text-shadow: 0 0 2px #000;
+	margin: 0 5px;
+	border:none;
+	outline: none;
+	cursor: pointer;
+}
+
+
+
+
+.ST-script .st-berhasil
+{
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 350px;
+	height: 230px;
+	background: url('https://cdngarenanow-a.akamaihd.net/gstaticid/FF_ID/gamingdiceblue/bigtextbox.png') no-repeat;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 20px;
+	filter: hue-rotate(330deg);
+	display: none;
+}
+.st-berhasil h1
+{
+	font-family: 'press';
+	font-size: 14px;
+	color:#fff;
+	letter-spacing: -1px;
+	text-shadow: 0 0 2px #000;
+	text-align: center;
+}
+.st-berhasil img 
+{
+	margin-top:20px;
+	width: 80px;
+	height: 80px;
+}
+
+.st-berhasil .bawah
+{
+	margin-top:10px;
+	font-family: 'exit';
+	font-size: 15px;
+	color:#fff;
+	letter-spacing: -1px;
+	text-align: center;
+	text-shadow: 0 0 2px #000;
+	letter-spacing: 0.2px;
+}
+
+
+@media(min-width: 600px){
+	.ST-script {
+		border: 2px solid #6ff4c6;
+		border-radius: 2px;
+	}
+	.ST-script, .ST-script .ST-header {
+		width: 400px;
+	}
+	.ST-script .ST-bl, .ST-script .ST-br, .ST-script .ST-footer {
+		display: none;
+	}
+	.ST-script .ST-bagianAtas {
+		padding: 0 10px;
+	}
+}
+@media(max-width: 400px)
+{
+	.ST-item .ST-subitem
+	{
+		width: 90px;
+		height: 90px;
+	}
+	.form-group .finput
+	{
+		width: 260px;
+	}
+}
+@media(max-width:420px)
+{
+	.ST-item .ST-subitem
+	{
+		width: 80px;
+		height: 80px;
+	}
+	.ST-script .st-history, .ST-script .st-loginId, .ST-script .st-berhasil, .ST-script .st-Reward
+	{
+		width: 320px;
+		height: 220px;
+	}
+	.ST-script .st-loginId h1
+	{
+		font-size: 16px;
+	}
+	.form-group .finput
+	{
+		width: 260px;
+	}
+@media(max-width: 390px)
+{
+	.ST-item .ST-subitem
+	{
+		width: 70px;
+		height: 70px;
+	}
+	.ST-script .st-history, .ST-script .st-berhasil, .ST-script .st-Reward
+	{
+		width: 300px;
+		height: 245px;
+	}
+	.ST-script .st-loginId
+	{
+		width: 300px;
+		height: 200px;
+	}
+	.form-group .finput
+	{
+		width: 240px;
+	}
+}
+@media(max-width: 340px)
+{
+	.form-group .finput
+	{
+		width: 220px;
+	}
+}

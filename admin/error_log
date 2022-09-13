@@ -1,0 +1,18 @@
+[18-Aug-2022 22:54:56 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ';' or ',' in /home/napthecl/public_html/admin/login.php on line 115
+[18-Aug-2022 22:54:57 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ';' or ',' in /home/napthecl/public_html/admin/login.php on line 115
+[18-Aug-2022 22:55:17 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ';' or ',' in /home/napthecl/public_html/admin/login.php on line 115
+[18-Aug-2022 22:56:02 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ';' or ',' in /home/napthecl/public_html/admin/login.php on line 115
+[18-Aug-2022 22:56:10 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected 'text' (T_STRING), expecting ';' or ',' in /home/napthecl/public_html/admin/login.php on line 115
+[18-Aug-2022 23:12:56 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/napthecl/public_html/admin/login.php on line 148
+[18-Aug-2022 23:12:58 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/napthecl/public_html/admin/login.php on line 148
+[18-Aug-2022 23:13:29 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /home/napthecl/public_html/admin/login.php on line 148
+[18-Aug-2022 23:18:05 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected end of file in /home/napthecl/public_html/admin/login.php on line 201
+[18-Aug-2022 23:52:39 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
+[18-Aug-2022 23:54:09 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
+[18-Aug-2022 23:54:12 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
+[18-Aug-2022 23:54:48 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
+[18-Aug-2022 23:54:56 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
+[18-Aug-2022 23:55:05 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
+[18-Aug-2022 23:55:11 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
+[19-Aug-2022 00:01:54 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/napthecl/public_html/admin/login.php on line 9
+[19-Aug-2022 00:20:32 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected '141' (T_LNUMBER), expecting identifier (T_STRING) in /home/napthecl/public_html/admin/login.php(1) : eval()'d code on line 1
